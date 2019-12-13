@@ -1,0 +1,13 @@
+setcps(75/60/4)
+
+d1 $ sound "bd:5 ~~~ sn:3 ~~~ bd:5 ~ bd:5 ~ sn:3 ~~~" # gain "0.95 0 0 0 1 0 0 0 1 0 0.9 0 1 0 0 0"
+
+d2 $ swingBy (1/30) 8 $ sound "hh hh hh hh hh hh hh hh" # gain "1 0.78 0.98 0.82 1 0.85 0.99 0.76"
+
+
+d3 $ sound "~~~~ ~~~ bd:10 ~~~~ ~~~~" # gain 0.75
+hush
+
+d4 $ sound "juno:9" # cutoff "1000"
+
+d5 $ slow 4 $ striate' 4 (1/8) $ sound "myloops" # gain 1.2 #hcutoff "150"
