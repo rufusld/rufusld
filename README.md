@@ -1,1 +1,1 @@
-# rufusld
+Notes for the tidal project
