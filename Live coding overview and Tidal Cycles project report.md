@@ -9,23 +9,30 @@ The aim of the project was to do a research of a phenomena of live coding in mus
 ### General overview
 
 “Live coding is inclusive and accessible to all. Many live coding environments can be downloaded and used for free, with documentation and examples to get you started and friendly on-line communities to help when you get problems. Popular live coding software includes ChucK,  Cyril, extempore, fluxus, impromptu, overtone and supercollider. Environments designed for fast exploration of musical pattern include ixi lang and TidalCycles. Sonic Pi is designed for teaching both music and computer science in classrooms, as well as performing in algoraves. There are also impressively capable web-based live coding environments like gibber and livecodelab. Live patching is live coding with graph-based languages such as the venerable pure-data. It’s also possible to livecode with a gamepad, e.g. with the robot oriented Al-Jazari.” (TOPLAP website n.d.)
+
 There are many live coding programs. Each program comes with its own programming language and learning curve. Of course, there are also different sound capabilities with each software.  Live coding programs like Max MSP and Pure Data introduce “dataflow programming” or, in other words, “patching” approach. This is an alternative live coding way of connecting various pre-designed objects to create a sound output. It is also possible to create your own objects in Max MSP but in order to do that it is imperative to have a basic understanding of the Java language. Max MSP is part of the Ableton Live package, whereas Pure Data software is free and open source. The more traditional music coding programs are Supercollider, TidalCycles, Foxdot and Sonic Pi. With these programs the music composition is achieved by writing lines of code using letters, symbols and digits. 
 One of the barriers with programming languages is a steep learning curve. Majority of music composers, for example, do not have coding experience. So, the question is – what are the main prerequisites on a way to learn how to code successfully? According to Victor (2012):
 
-•	Programming is a way of thinking, not a rote skill. Learning about "for" loops is not learning to program, any more than learning about pencils is learning to draw.
-•	People understand what they can see. If a programmer cannot see what a program is doing, she can't understand it.
-Thus, the goals of a programming system should be:
-•	to support and encourage powerful ways of thinking
-•	to enable programmers to see and understand the execution of their programs
+>•	Programming is a way of thinking, not a rote skill. Learning about "for" loops is not learning to program, any more than learning about pencils is learning to draw.
+
+>•	People understand what they can see. If a programmer cannot see what a program is doing, she can't understand it.
+
+>Thus, the goals of a programming system should be:
+
+>•	to support and encourage powerful ways of thinking
+
+>•	to enable programmers to see and understand the execution of their programs
 
 ### Algorave
 
-Algorave is a term for live concert where music programmers perform on stage in front of the audience. Musicians compose music live using live coding software. There is a screen on stage where the audience can see the full code of the music piece being played. The term “Algorave” was invented by Alex McLean and Nick Collins in 2011. Since 2011 algoraves are becoming more and more popular and are taking place worldwide. 
+Algorave is a term for live concert where music programmers perform on stage in front of the audience. Musicians compose music live using live coding software. There is a screen on stage where the audience can see the full code of the music piece being played. The term “Algorave” was invented by Alex McLean and Nick Collins in 2011. Since 2011 algoraves are becoming more and more popular and are taking place worldwide.
+
 “Algorave is made from “sounds wholly or predominantly characterised by the emission of a succession of repetitive conditionals”. These days just about all electronic music is made using software, but with artificial barriers between the people creating the software algorithms and the people making the music. Using systems built for creating algorithmic music and visuals, such as IXI Lang, puredata, Max/MSP, SuperCollider, Extempore, Fluxus, TidalCycles, Gibber, Sonic Pi, FoxDot and Cyril these barriers are broken down, and musicians are able to compose and work live with their music as algorithms. This has good and bad sides, but a different approach leads to interesting places.” (Algorave website n.d.)
+
 One of the prominent live coders from the UK is an artist Joanne Armitage. Joanne performs at algoraves all across the globe and is also a lecturer in digital media at The University of Leeds. 
 This is how Kretowicz (2017) describes Joanne’s live performance:
 
-In the back room of a bar in the South London suburb of New Cross, there’s a revolution happening. Or maybe it’s not so much a revolution as a de-volution, a rolling back to the backend of music production, where the possibilities of the encoded information inside computer software is open and endless. An artist with the simple stage name Joanne, is standing on a stage at the Amersham Arms, looking at her laptop and typing, immersed in dry ice and the creative process, as a projection plays behind her. Red, blue, green, yellow, purple text on a black background moves and changes; highlighted orange, and cut-and-pasted, in a flash, disappearing with the rhythm of a cursor. The music it conjures is bouncing out of several well-placed speakers. It ricochets from the corners of the dimmed room as a repetitive dull thud drops, then builds up through a crunching, incessant rhythm. Some of the audience squeals, the floor vibrating with a heavy beat that’s almost organic. This is the look and sound of live-coded electronic music, or the more recently (and craftily) coined music ‘genre’ now known as Algorave.
+>In the back room of a bar in the South London suburb of New Cross, there’s a revolution happening. Or maybe it’s not so much a revolution as a de-volution, a rolling back to the backend of music production, where the possibilities of the encoded information inside computer software is open and endless. An artist with the simple stage name Joanne, is standing on a stage at the Amersham Arms, looking at her laptop and typing, immersed in dry ice and the creative process, as a projection plays behind her. Red, blue, green, yellow, purple text on a black background moves and changes; highlighted orange, and cut-and-pasted, in a flash, disappearing with the rhythm of a cursor. The music it conjures is bouncing out of several well-placed speakers. It ricochets from the corners of the dimmed room as a repetitive dull thud drops, then builds up through a crunching, incessant rhythm. Some of the audience squeals, the floor vibrating with a heavy beat that’s almost organic. This is the look and sound of live-coded electronic music, or the more recently (and craftily) coined music ‘genre’ now known as Algorave.
 
 Such description accounts for quintessential algorave performance.
 
@@ -34,20 +41,25 @@ Such description accounts for quintessential algorave performance.
 #### Supercollider
 
 Supercollider is one of the most well-known live coding environments. It was developed and released in 1996 by James McCartney. Since 2002 Supercollider is a free, open source software which is maintained by a community of live coders. The software is based on C++ language. It consists of three major components: scsynth, sclang, and scide. 
+
 “scsynth, a real-time audio server, forms the core of the platform. It features 400+ unit generators (“UGens”) for analysis, synthesis, and processing. Its granularity allows the fluid combination of many known and unknown audio techniques, moving between additive and subtractive synthesis, FM, granular synthesis, FFT, and physical modeling. You can write your own UGens in C++, and users have already contributed several hundred more to the sc3-plugins repository.
 sclang, an interpreted programming language. It is focused on sound, but not limited to any specific domain. sclang controls scsynth via Open Sound Control. You can use it for algorithmic composition and sequencing, finding new sound synthesis methods, connecting your app to external hardware including MIDI controllers, network music, writing GUIs and visual displays, or for your daily programming experiments. It has a stock of user-contributed extensions called Quarks.
 scide is an editor for sclang with an integrated help system.” (Supercollider website n.d.)
+
 Apart from working in Supercollider on its own, it is possible to use other programs like TidalCycles and Sonic Pi to use Supercollider sounds. 
 
 #### TidalCycles
 
 TidalCycles is based on the Haskell programming language and was created by Alex McLean. The software utilizes patterns method of music composing approach. TidalCycles is perfectly designed for musical improvisation and composing. The program is quite accessible for people with music background due to its timing/rhythm concept. 
+
 “Tidal does not make sound itself, but is designed for use with the featureful SuperDirt synth, and can control other synths over Open Sound Control or MIDI. Whether you're using SuperDirt or a synth, every filter and effect can be patterned and manipulated independently with Tidal patterns.” (TidalCycles website n.d.) 
+
 TidalCycles is one of the most commonly used live coding environments used in algorave performances. 
 
 #### Sonic Pi
 
 Sonic Pi is another, widely used at algoraves, live coding music program. It was developed by Sam Aaron at the University of Cambridge. This software also uses Supercollider engine and it has similar time signature/rhythm-based design. It was originally developed for educational purposes and is based on the Ruby programming language. 
+
 “As an open source environment, Sonic Pi software, toolkits, resources as well as the work of others are available free to all online. Users can define their own sounds, rhythms and tone to create their own music. This can be done as static compositions as well as live performances, and is the first programing system that allows a live loop. This means the user to change the code while it is playing the music and therefore create a continually growing tune. Sonic Pi comes pre-installed with sound loops that can be manipulated by changing the speed, bass levels and repetitions to create your own unique songs.” (Miller, 2017)
 
 #### Orca
