@@ -111,12 +111,19 @@ The live coding approach to music can improve improvisational capabilities and b
 ### Bibliography
 
 Algorave website (n.d.). Algorave about page. [Online] Available from: https://algorave.com/about/ [Access date 11/07/20]
+
 Allieway Audio (2019). ORCA Sequencer Intro (Experimental Livecoding!). [Online] Available from:  https://youtu.be/RaI_TuISSJE [Access date 11/07/20]
+
 Kretowicz, Steph (2017). Artists across the world are redefining what it means to create music with a laptop. [Online] https://mixmag.net/feature/algorave [Access date 11/07/20]
+
 Miller, Sarah (2017). What is Sonic Pi? [Online] Available from: https://www.fdmgroup.com/what-is-sonic-pi-2/ [Access date 11/07/20]
+
 Supercollider website (n.d.). Supercollider main page. [Online] Available from: https://supercollider.github.io/ [Access date 11/07/20]
+
 TidalCycles website (n.d.). TidalCycles welcome page. [Online] Available from: https://tidalcycles.org/index.php/Welcome [Access date 11/07/20]
+
 TOPLAP website (n.d.). Toplap about page. [Online] Available from: https://toplap.org/about/ [Access date 11/07/20]
+
 Victor, Bret (2012). Learnable Programming. [Online] Available from: http://worrydream.com/LearnableProgramming/ [Access date 11/07/20]
 
 
